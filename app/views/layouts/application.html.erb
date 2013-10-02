@@ -55,12 +55,7 @@
                 <li role="presentation"><%= link_to "Waiver", asset_path('WFMCC_Electronic_Waiver.pdf') %></li>
               </ul>
             </li>
-            <li class="dropdown <%= 'active' if current_page?(schedule_path) %>">
-              <a id="drop-schedule" role="button" data-toggle="dropdown" href="<%= schedule_path %>">Schedule <b class="caret"></b></a>
-              <ul id="schedule-menu" class="dropdown-menu" role="menu" aria-labelledby="drop-schedule">
-                <li role="presentation"><%= link_to "Practices", schedule_path+"#practices", :role => 'menuitem' %></li>
-              </ul>
-            </li>
+            <li class="<%= 'active' if current_page?(schedule_path) %>"><%= link_to "Schedule", schedule_path %></li>
             <li class="<%= 'active' if current_page?(media_path) %>"><%= link_to "Media", media_path %></li>
             <li class="<%= 'active' if current_page?(contact_path) %>"><%= link_to "Contact", contact_path %></li>
             <li class="dropdown">
