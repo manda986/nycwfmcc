@@ -1,0 +1,95 @@
+<!-- Carousel
+ ================================================== -->
+ <div id="myCarousel" class="carousel slide">
+   <!-- Indicators -->
+   <ol class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
+     <li data-target="#myCarousel" data-slide-to="3"></li>
+   </ol>
+   <div class="carousel-inner">
+     <div class="item active">
+       <%= image_tag "wfmocc_spring_2013_4.jpg" %>
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>World's Fair Marina Canoe Club</h1>
+           <p>The only canoe club in NYC Queens. Dedicated to promoting the sport of Outrigger Canoeing</p>
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <%= image_tag "tony.jpg" %>
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>Train all season long</h1>
+           <p>Fast-track your OC and dragonboat paddling skill by learning to pull your own weight</p>
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <%= image_tag "looking_back.jpg" %>
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>Paddle solo but together</h1>
+           <p>Join us for fun paddles all along the East Coast!</p>
+           <p><%= link_to "See our Schedule", schedule_path, :class => "btn btn-large btn-primary" %></p>
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <%= image_tag "kevinw_on_the_right.jpg" %>
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>Any paddler can join</h1>
+           <p>Consider it supplemental training for your club</p>
+           <p><%= link_to "Check out our Facebook page", 'https://www.facebook.com/groups/WorldsFairOC1/?fref=ts', :class => "btn btn-large btn-primary" %></p>
+         </div>
+       </div>
+     </div>
+   </div>
+   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+   </a>
+   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right white"></span></a>
+ </div><!-- /.carousel -->
+
+ <!-- Marketing messaging and featurettes
+ ================================================== -->
+ <!-- Wrap the rest of the page in another container to center all the content. -->
+
+ <div class="container marketing">
+
+
+
+   <!-- Three columns of text below the carousel -->
+   <div class="row">
+     <div class="col-lg-4">
+       <a href="https://www.facebook.com/groups/WorldsFairOC1/?fref=ts" targe="_blank"><i class="icon icon-facebook-sign"></i></a>
+       <h2>Us on Facebook</h2>
+       <p>Check this out for updates on available OC paddling time slots. Also watch some sweet GoPro videos
+         of our runs.</p>
+     </div><!-- /.col-lg-4 -->
+     <div class="col-lg-4">
+       <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+       <h2>Heading</h2>
+       <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+       <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+     </div><!-- /.col-lg-4 -->
+     <div class="col-lg-4">
+       <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+       <h2>Heading</h2>
+       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+       <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+     </div><!-- /.col-lg-4 -->
+   </div><!-- /.row -->
+
+
+
+   <!-- FOOTER -->
+   <footer>
+     <p class="pull-right"><a href="#">Back to top</a></p>
+     <p>&copy; 2013 NYC World's Fair Marina Canoe Club, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+   </footer>
+
+ </div><!-- /.container -->
