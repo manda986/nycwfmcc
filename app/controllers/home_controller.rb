@@ -20,9 +20,6 @@ class HomeController < ApplicationController
   def contact
   end
 
-  def oc_club
-  end
-
   def is_practice_on
   end
 

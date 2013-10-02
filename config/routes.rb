@@ -12,8 +12,6 @@ Nycwfmcc::Application.routes.draw do
   get '/schedule' => 'home#schedule'
   get '/media' => 'home#media'
   get '/contact' => 'home#contact'
-  get '/oc_club' => 'home#oc_club'
-  get '/ispracticeon' => 'home#is_practice_on'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
